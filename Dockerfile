@@ -101,6 +101,7 @@ RUN apt-get update && \
         python3-tk \
         python3-dev \
         python3-setuptools \
+	gnome-screenshot \
         scrot && \
     pip3 install --upgrade --no-cache-dir -r ${HOME}/res/requirements.txt && \
 # Install VLC - optional
