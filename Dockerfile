@@ -32,6 +32,7 @@ RUN apt-get update && \
         wget \
         locales \
         bzip2 \
+	gnome-screenshot \
         tzdata && \
 # Generate locales for en_US.UTF-8
     locale-gen en_US.UTF-8 && \
