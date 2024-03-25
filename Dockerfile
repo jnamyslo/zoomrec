@@ -81,9 +81,8 @@ RUN apt-get update && \
         libxslt1.1 \
         libsqlite3-0 \
         libxcb-keysyms1 \
+        libxcb-cursor0 \
         libxcb-xtest0 && \
-# Fix Installation
-        apt --fix-broken install -y && \
 # Install Zoom
     wget -q -O zoom_amd64.deb https://cdn.zoom.us/prod/5.14.5.2430/zoom_amd64.deb && \
     dpkg -i zoom_amd64.deb && \
